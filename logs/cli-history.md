@@ -38,7 +38,8 @@ gcloud services enable compute.googleapis.com \
  
           kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.10.0/deploy/static/provider/kind/deploy.yaml
 
-
+          sudo bash -c "echo 127.0.0.1 echo.local >> /etc/hosts"
+```
 ---
 
 ## [2025-04-02] – Inizializzazione Terraform (rete VPC)
