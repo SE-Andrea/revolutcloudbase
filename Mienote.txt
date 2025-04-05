@@ -1,0 +1,9 @@
+git clone https://github.com/SE-Andrea/revolutcloudbase.git
+cd revolutcloudbase
+
+mkdir -p infra k8s ci services docs logs
+touch .env.example README.md
+
+
+git config --global user.email "software.engineer.explorer@gmail.com"
+git config --global user.name "Andrea Cloud Architect"
